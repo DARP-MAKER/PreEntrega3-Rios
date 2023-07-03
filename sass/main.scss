@@ -7,6 +7,16 @@ $screen: 1349px;
 @import 'reset';  
 @import 'mobile';  
 @import 'tablet'; 
+
+
+/*background*/
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(78, 47, 47, 0)),url('../Images/background_coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+  }
     
 
 
