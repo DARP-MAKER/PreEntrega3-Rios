@@ -437,7 +437,8 @@ header .header_nav {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 30px;
   }
-  input, textarea {
+  input,
+  textarea {
     display: block;
     margin: 0;
     padding: 0;
@@ -518,7 +519,8 @@ header .header_nav {
   /* Features */
   .features {
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 5%;
+    margin-bottom: 2%;
   }
   .features p {
     margin-top: 10px;
@@ -542,9 +544,6 @@ header .header_nav {
     grid-column: 9/11;
   }
   /* Plantation */
-  .plantation {
-    margin-top: 30px;
-  }
   .plantation img {
     grid-column: 2/5;
     width: 600px;
@@ -552,7 +551,6 @@ header .header_nav {
   .plantation p {
     text-align: justify;
     grid-column: 8/12;
-    margin-top: 1px;
   }
   .button2 {
     background-color: #e9d1d1;
@@ -581,19 +579,26 @@ header .header_nav {
     margin-left: 200px;
     width: 600px;
   }
-  .map {
-    padding: 20px;
-    grid-column: 5/8;
+  .map iframe {
+    width: 150%;
+    grid-column: 1/9;
+    align-items: center;
   }
   .info {
-    grid-column: 4/10;
+    grid-column: 4/9;
     padding: 20px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
   /* Gallery */
   #carouselExample {
-    width: 800px;
-    height: 600px;
+    max-width: 70%;
+    min-width: 70%;
+    height: auto;
     margin: 0 auto;
     margin-top: 10px;
   }
@@ -611,9 +616,9 @@ header .header_nav {
   .product3 {
     grid-column: 9/11;
   }
-  .products section {
+  .products {
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 5%;
   }
   .products .product1,
   .products .product2,
@@ -627,7 +632,7 @@ header .header_nav {
     margin-bottom: 10px;
   }
   .button3 {
-    background-color: rgb(90, 39, 6);
+    background-color: rgb(50, 39, 6);
     border-radius: 40px;
     padding: 10px;
     color: white;
@@ -673,11 +678,12 @@ header .header_nav {
     margin-right: 90px;
   }
   .footernav {
-    grid-column: 4/11;
+    grid-column: 3/11;
     margin-top: 50px;
+    margin-left: 2%;
   }
   .footernav ul li {
     display: inline;
-    padding: 20px;
+    padding: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
