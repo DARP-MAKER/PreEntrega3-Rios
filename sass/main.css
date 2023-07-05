@@ -785,6 +785,16 @@ header .header_nav {
     height: 80px;
     width: 360px;
   }
+  /* Terms */
+  .terms {
+    background-color: rgba(23, 78, 18, 0.8078431373);
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    margin: 10%;
+    padding: 1%;
+    border-radius: 20px;
+  }
   /* Footer */
   .media {
     grid-column: 6/8;
